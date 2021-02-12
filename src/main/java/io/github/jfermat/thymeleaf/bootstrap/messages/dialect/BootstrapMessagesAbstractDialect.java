@@ -33,7 +33,7 @@ public abstract class BootstrapMessagesAbstractDialect extends AbstractProcessor
      * @param prefix              the prefix
      * @param processorPrecedence the processor precedence
      */
-    public BootstrapMessagesAbstractDialect(String prefix, int processorPrecedence) {
+    protected BootstrapMessagesAbstractDialect(String prefix, int processorPrecedence) {
         super("Thymeleaf Bootstrap Messages Dialect", prefix, processorPrecedence);
     }
 
